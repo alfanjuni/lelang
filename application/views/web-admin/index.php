@@ -146,7 +146,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="clearfix"> </div> 
 		</div> 
 <div class="copy"> 
-            <p> Ahmad alfan & Andriyan crismunianto </p> 
+            <p> KostDevUdinus </p> 
 	    </div> 
 		</div> 
 		<div class="clearfix"> </div> 
