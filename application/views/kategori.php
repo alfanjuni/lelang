@@ -90,7 +90,7 @@ table, tr, th, td {
 							<td>
       						
 
-							<?php if ($id_pelelang ==  $row->id_pelelang): ?>
+							<?php if ($id_pelelang ==$row->id_pelelang): ?>
 								<h3>Barang Sendiri</h3>
 							<?php else: ?>
 							<a  href="<?php echo base_url() ?>index.php/web/detail_barang/<?php echo $row->id_barang_lelang ; ?>" class="btn btn-success btn-small" >
@@ -119,5 +119,5 @@ function confirm_modal(delete_url)
 <script type="text/javascript">
 		$(document).ready(function() {
 		$('#datatables').DataTable();
-		} );
+} );
 </script>
