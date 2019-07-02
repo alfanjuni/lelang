@@ -4,7 +4,7 @@
 	    <div class="register"> 
 			   <div class="col-md-10 login-left"> 
 			  	 <h3>DETAIL BARANG LELANG</h3> 
-				<table class="table-responsive table table-bordered table-hover table-striped" id="datatables">
+				<table class="table-responsive table table-bordered table-hover table-striped" >
 			    <thead>
 			    <tr>
 			        <th >No</th>

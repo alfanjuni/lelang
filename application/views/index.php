@@ -26,6 +26,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="text/javascript" src="assets/js/megamenu.js"></script> 
 <script>$(document).ready(function(){$(".megamenu").megamenu();});</script> 
 <script src="js/responsiveslides.min.js"></script> 
+<script src="assets/dataTables/datatables.min.js"></script> 
+<link href="assets/dataTables/datatables.min.css" rel='stylesheet' type='text/css' /> 
 <script> 
     $(function () {
       $("#slider").responsiveSlides({
@@ -79,5 +81,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<p class="copy">Copyright&copy; 2018 Design by KostDevUdinus</a></p> 
 	</div> 
 </div> 
+<script type="text/javascript">
+		$(document).ready(function() {
+		$('#datatables').DataTable();
+} );
+	</script>
 </body> 
 </html>		

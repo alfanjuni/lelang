@@ -1,46 +1,11 @@
 
-<style type="text/css">
-	
-table, tr, th, td {
-		border-collapse: collapse; /*untuk membuat garis table tipis*/
-		border: 1px solid #98BF21;
-		font-weight: bold;
-		font-family: georgia;
-		width: 1100px;
-
-	}
-	th{
-		background-color:black;
-		color: white;
-		border-bottom:3px solid #98BF21;
-	}
-	th, td{
-		padding: 5px;
-	}
-	
-	tr:nth-child(odd){
-		background-color:#e1e1e1;
-	}
-	tr:nth-child(even){
-		background-color:#e2f1e2; 
-	}
-	tr:hover{
-		background-color:#ffffff;
-		cursor: pointer; 
-	}
-	th.a{
-		color: white;
-		float: left;
-		
-	}
-</style>
 
 <div class="men"> 
 	<div class="container"> 
 	    <div class="register"> 
 			   <div class="col-md-6 login-left"> 
 			  	 <h3>DETAIL KANDIDAT</h3> 
-				   <table class="table-responsive table  table-bordered table-hover table-striped" id="datatables">
+				   <table class="table-responsive table  table-bordered table-hover table-striped">
 			    <thead>
 			    <tr>
 			        <th >No</th>

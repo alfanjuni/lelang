@@ -39,7 +39,7 @@ table, tr, th, td {
 	    <div class="register"> 
 			   <div class="col-md-14 login-left"> 
 			  	 <h3>DETAIL BARANG LELANG</h3> 
-				<table width="100%">
+				<table class="table-responsive  table-bordered table-hover table-striped" id="datatables">
 			    <thead>
 			    <tr>
 			        <th >No</th>

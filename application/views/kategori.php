@@ -39,7 +39,7 @@ table, tr, th, td {
 	    <div class="register"> 
 			   <div class="col-md-14 login-left"> 
 			  	 <h3>SEMUA BARANG YANG DI LELANG</h3> 
-				<table>
+				<table class="table-responsive  table-bordered table-hover table-striped" id="datatables">
 			    <thead>
 			    <tr>
 			        <th >No</th>
@@ -115,4 +115,9 @@ function confirm_modal(delete_url)
 	$('#modal_delete').modal('show', {backdrop: 'static'});
 	document.getElementById('delete_link').setAttribute('href' , delete_url);
 }
+</script>
+<script type="text/javascript">
+		$(document).ready(function() {
+		$('#datatables').DataTable();
+		} );
 </script>
