@@ -21,6 +21,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="assets/admin/css/custom.css" rel="stylesheet"> 
 <script src="assets/admin/js/custom.js"></script> 
 <script src="assets/admin/js/screenfull.js"></script> 
+<script src="assets/dataTables/datatables.min.js"></script> 
+<link href="assets/dataTables/datatables.min.css" rel='stylesheet' type='text/css' /> 
 		<script> 
 		$(function () {
 			$('#supported').text('Supported/allowed: ' + !!screenfull.enabled);
@@ -128,8 +130,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
  </div> 
 			<div class="col-md-7 mid-content-top"> 
 				
-		<link href="css/owl.carousel.css" rel="stylesheet"> 
-		<script src="js/owl.carousel.js"></script> 
+		<link href="assets/admin/css/owl.carousel.css" rel="stylesheet"> 
+		<script src="assets/admin/js/owl.carousel.js"></script> 
 			<script> 
 				$(document).ready(function() {
 					$("#owl-demo").owlCarousel({
@@ -154,10 +156,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
      </div> 
 <!----> 
 <!--scrolling js--> 
-	<script src="js/jquery.nicescroll.js"></script> 
-	<script src="js/scripts.js"></script> 
+	<script src="assets/admin/js/jquery.nicescroll.js"></script> 
+	<script src="assets/admin/js/scripts.js"></script> 
 	<!--//scrolling js--> 
-	<script src="js/bootstrap.min.js"> </script> 
+	<script src="assets/admin/js/bootstrap.min.js"> </script> 
+	<script type="text/javascript">
+		$(document).ready(function() {
+		$('#datatables').DataTable();
+} );
+	</script>
 </body> 
 </html> 
  
