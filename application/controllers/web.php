@@ -38,7 +38,7 @@ class Web extends CI_Controller {
 		$keyword = $this->input->post('keyword');
 		$data['data'] = $this->db->query("SELECT *
 FROM tbl_barang_lelang
-WHERE nama_barang LIKE '%$keyword'");
+WHERE nama_barang LIKE '%$keyword%'");
 		$data['keyword'] = $this->input->post('keyword');
 		$data['content'] = "cari";
 		$this->load->view('index',$data);
