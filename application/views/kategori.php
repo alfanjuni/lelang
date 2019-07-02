@@ -49,6 +49,7 @@ table, tr, th, td {
 			        <th >Status</th>
 					<th >Gambar</th>
 					<th >Pilihan</th>
+					
 			    </tr>
 			    </thead>
 			    <tbody>
@@ -87,9 +88,15 @@ table, tr, th, td {
 				
 				
 							<td>
-      						<a  href="<?php echo base_url() ?>index.php/web/detail_barang/<?php echo $row->id_barang_lelang ; ?>" class="btn btn-success btn-small" 
-      						>
-      						<span class="glyphicon glyphicon-plus"></span>&nbsp;Lelang</a>
+      						
+
+							<?php if ($id_pelelang ==  $row->id_pelelang): ?>
+								<h3>Barang Sendiri</h3>
+							<?php else: ?>
+							<a  href="<?php echo base_url() ?>index.php/web/detail_barang/<?php echo $row->id_barang_lelang ; ?>" class="btn btn-success btn-small" >
+								<span class="glyphicon glyphicon-plus"></span>&nbsp;Lelang</a>
+							<?php endif; ?>
+      						
 							
 							
 							</td>

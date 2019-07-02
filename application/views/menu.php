@@ -32,7 +32,7 @@
 		<div class="menu_box"> 
 	     <ul class="megamenu skyblue"> 
 			<li class="color8"><a class="color2" href="index.php">Home</a></li> 
-			<li><a class="color8" href="index.php/web/kategori">Kategori</a></li> 
+			<li><a class="color8" href="index.php/web/kategori">Semua Barang</a></li> 
 			<li><a class="color8" href="index.php/web/cara">Cara Ikut Lelang</a></li> 
 			<li><a class="color8" href="index.php/web/ketentuan">Cara Pembayaran</a></li>
 			<li><a class="color8" href="index.php/web/info">Informasi kayu</a></li>  

@@ -4,7 +4,7 @@ class Web extends CI_Controller {
 
 	public function index()
 	{
-		$data['data']    = $this->db->query("SELECT * FROM tbl_barang_lelang order by id_barang_lelang desc limit 4");
+		$data['data']    = $this->db->query("SELECT * FROM tbl_barang_lelang order by id_barang_lelang desc limit 10");
 		$data['content'] = 'home';
 		$this->load->view('index',$data);
 	}
@@ -38,7 +38,7 @@ class Web extends CI_Controller {
 		$keyword = $this->input->post('keyword');
 		$data['data'] = $this->db->query("SELECT *
 FROM tbl_barang_lelang
-WHERE nama_barang LIKE '$keyword'");
+WHERE nama_barang LIKE '%$keyword'");
 		$data['keyword'] = $this->input->post('keyword');
 		$data['content'] = "cari";
 		$this->load->view('index',$data);
@@ -52,7 +52,7 @@ WHERE nama_barang LIKE '$keyword'");
 			
 		}
 		$data['id_pelelang'] = $value->id_pelelang;
-		$data['data']   = $this->db->get_where('tbl_barang_lelang',$data);
+		$data['data']   = $this->db->get('tbl_barang_lelang');
 		$data['content'] = 'kategori';
 		$this->load->view('index',$data);
 		}else{
