@@ -40,7 +40,7 @@ table, tr, th, td {
 	    <div class="register"> 
 			   <div class="col-md-6 login-left"> 
 			  	 <h3>DETAIL KANDIDAT</h3> 
-				<table width="100%">
+				   <table class="table-responsive table  table-bordered table-hover table-striped" id="datatables">
 			    <thead>
 			    <tr>
 			        <th >No</th>
